@@ -24,5 +24,5 @@ app.post('/', async (req, res) => {
   await fs.appendFile(logsPath, `${text}\r\n`)
   res.redirect('/')
 })
-//123345
+//12334
 app.listen(port, () => console.log(`Server listening on port ${port}`))
